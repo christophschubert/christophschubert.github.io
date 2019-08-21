@@ -6,4 +6,6 @@ title: Work work work
 
 ## August 20th, 2019
 
-	- started reading "AI Superpowers"
+On vacation, Netherlands
+
+-  started reading "AI Superpowers"
