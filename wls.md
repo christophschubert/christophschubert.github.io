@@ -3,7 +3,6 @@ layout: post
 title: Work work work
 ---
 
-# Work/life/study log
 
 ## August 21st, 2019
 
