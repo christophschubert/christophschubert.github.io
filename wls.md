@@ -1,7 +1,3 @@
----
-layout: post
-title: Work work work
----
 
 
 ## August 21st, 2019
