@@ -4,6 +4,7 @@ layout: post
 title: Work work work
 ---
 
+
 ## August 22nd, 2019
 
 On vacation, Netherlands
@@ -23,4 +24,4 @@ On vacation, Netherlands
 
 On vacation, Netherlands
 
--  started reading "AI Superpowers"
+-  started reading "AI Superpowers" by Kai-Fu Lee
