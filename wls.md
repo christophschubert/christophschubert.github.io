@@ -1,5 +1,5 @@
 ---
-theme: jekyll-theme-cayman
+theme: cayman
 layout: post
 title: Work work work
 ---
