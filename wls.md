@@ -24,7 +24,7 @@ On vacation, Netherlands
 On vacation, Netherlands
 
 - continued reading "AI Superpowers"
-- started work/life/study log at christophschubert.github.io
+- started work/life/study log at https://christophschubert.github.io
 
 ## August 20th, 2019
 
