@@ -7,7 +7,11 @@ title: Work work work
 
 On vacation, Netherlands
 
-- continued reading "Extreme Ownership"
+- finished reading "Extreme Ownership"
+
+	**Verdict:** good, inspiring read.
+
+- started to read "The Enterprise Big Data Lake"
 
 ## August 23rd, 2019
 
