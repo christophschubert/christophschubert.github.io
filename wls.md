@@ -12,6 +12,7 @@ On vacation, Netherlands
 	**Verdict:** good, inspiring read.
 
 - started to read "The Enterprise Big Data Lake"
+- 1.5 hours of client's work: improved JavaDoc and added test cases.
 
 ## August 23rd, 2019
 
