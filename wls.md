@@ -3,6 +3,12 @@ layout: default
 title: Work work work
 ---
 
+## August 24th, 2019
+
+On vacation, Netherlands
+
+- continued reading "Extreme Ownership"
+
 ## August 23rd, 2019
 
 On vacation, Netherlands
