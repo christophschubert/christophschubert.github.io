@@ -9,7 +9,8 @@ title: Work work work
 
 On vacation, Netherlands
 
-- client work: wrote up invariants of algorithm and added unit test cases (1.5h)
+- continued reading "Enterprise Big Data Lake"
+- client work: wrote up invariants of algorithm and added unit test cases (1.5h), added first invariant (property) based tests (1.5h)
 
 ## August 24th, 2019
 
