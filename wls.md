@@ -3,11 +3,13 @@ layout: default
 title: Work work work
 ---
 
+# Work life study log
+
 ## August 25th, 2019
 
 On vacation, Netherlands
 
-- client work: wrote up invariants of algorithm and added unit test cases
+- client work: wrote up invariants of algorithm and added unit test cases (1.5h)
 
 ## August 24th, 2019
 
@@ -21,7 +23,7 @@ On vacation, Netherlands
 	> It's not what you preach, it's what you tolerate.
 
 - started to read "The Enterprise Big Data Lake"
-- 1.5 hours of client's work: improved JavaDoc and added test cases.
+- client's work: improved JavaDoc and added test cases (1.5h).
 
 ## August 23rd, 2019
 
