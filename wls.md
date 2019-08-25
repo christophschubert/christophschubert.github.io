@@ -3,6 +3,12 @@ layout: default
 title: Work work work
 ---
 
+## August 25th, 2019
+
+On vacation, Netherlands
+
+- client work: wrote up invariants of algorithm and added unit test cases
+
 ## August 24th, 2019
 
 On vacation, Netherlands
@@ -10,6 +16,9 @@ On vacation, Netherlands
 - finished reading "Extreme Ownership"
 
 	**Verdict:** good, inspiring read.
+
+	**Memorable quote**:
+	> It's not what you preach, it's what you tolerate.
 
 - started to read "The Enterprise Big Data Lake"
 - 1.5 hours of client's work: improved JavaDoc and added test cases.
