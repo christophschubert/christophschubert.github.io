@@ -5,14 +5,19 @@ title: Work work work
 
 # Work life study log
 
-## August 25th, 2019
+## August 26<sup>th</sup>, 2019
+
+On vacation, Netherlands
+- continued reading "Enterprise Big Data Lake"
+
+## August 25<sup>th</sup>, 2019
 
 On vacation, Netherlands
 
 - continued reading "Enterprise Big Data Lake"
 - client work: wrote up invariants of algorithm and added unit test cases (1.5h), added first invariant (property) based tests (1.5h)
 
-## August 24th, 2019
+## August 24<sup>th</sup>, 2019
 
 On vacation, Netherlands
 
@@ -26,13 +31,13 @@ On vacation, Netherlands
 - started to read "The Enterprise Big Data Lake"
 - client's work: improved JavaDoc and added test cases (1.5h).
 
-## August 23rd, 2019
+## August 23<sup>rd</sup>, 2019
 
 On vacation, Netherlands
 
 - continued to read "Extreme Ownership"
 
-## August 22nd, 2019
+## August 22<sup>nd</sup>, 2019
 
 On vacation, Netherlands
 
@@ -42,14 +47,14 @@ On vacation, Netherlands
 - started working through "7 Concurrency Models in 7 Weeks"
 - (re)started to read "Extreme Ownership"
 
-## August 21st, 2019
+## August 21<sup>st</sup>, 2019
 
 On vacation, Netherlands
 
 - continued reading "AI Superpowers"
 - started work/life/study log at https://christophschubert.github.io
 
-## August 20th, 2019
+## August 20<sup>th</sup>, 2019
 
 On vacation, Netherlands
 
