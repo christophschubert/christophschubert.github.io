@@ -5,6 +5,17 @@ title: Work work work
 
 # Work life study log
 
+## August 28<sup>th</sup>, 2019
+On vacation, Netherlands
+- finished reading "Enterprise Big Data Lake"
+
+	**Verdict**: repetitive and pretty light on technical information. More suitable for managers than for technicians. 
+
+## August 27<sup>th</sup>, 2019
+
+On vacation, Netherlands
+- continued readign "Enterprise Big Data Lake"
+
 ## August 26<sup>th</sup>, 2019
 
 On vacation, Netherlands
