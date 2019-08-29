@@ -5,11 +5,16 @@ title: Work work work
 
 # Work life study log
 
+## August 29<sup>th</sup>, 2019
+On vacation, Netherlands
+- read on Clojure
+- watched Apache Atlas videos on Youtube
+
 ## August 28<sup>th</sup>, 2019
 On vacation, Netherlands
 - finished reading "Enterprise Big Data Lake"
 
-	**Verdict**: repetitive and pretty light on technical information. More suitable for managers than for technicians. 
+	**Verdict**: repetitive and pretty light on technical information. More suitable for managers than for technicians.
 
 ## August 27<sup>th</sup>, 2019
 
