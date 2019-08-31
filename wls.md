@@ -5,6 +5,12 @@ title: Work work work
 
 # Work life study log
 
+## August 31<sup>st</sup>
+- started reading "Shape Up"
+
+## August 30<sup>th</sup>, 2019
+Drove back to Bremen, birthday celebration at my parent's home
+
 ## August 29<sup>th</sup>, 2019
 On vacation, Netherlands
 - read on Clojure
@@ -19,7 +25,7 @@ On vacation, Netherlands
 ## August 27<sup>th</sup>, 2019
 
 On vacation, Netherlands
-- continued readign "Enterprise Big Data Lake"
+- continued reading "Enterprise Big Data Lake"
 
 ## August 26<sup>th</sup>, 2019
 
