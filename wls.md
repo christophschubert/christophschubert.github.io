@@ -5,7 +5,15 @@ title: Work work work
 
 # Work life study log
 
+## September 1<sup>st</sup>, 2019
+Bremen/Stuttgart
+- cleaned apartment
+- travelled to Stuttgart
+- installed Todoist on all devices and added tasks
+
 ## August 31<sup>st</sup>
+Bremen
+- brougth Julia to airport
 - started reading "Shape Up"
 
 ## August 30<sup>th</sup>, 2019
