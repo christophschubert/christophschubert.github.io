@@ -7,7 +7,7 @@ title: Work work work
 
 ## October 13<sup>th</sup>, 2019
 Konstanz
-- watched awesome talk by Steve Lavavey on his `<charconv>` implementation [YouTube](https://www.youtube.com/watch?v=4P_kbF0EbZM)
+- watched awesome talk by Steve Lavavey on his `&lt;charconv&gt;` `<charconv>` implementation [YouTube](https://www.youtube.com/watch?v=4P_kbF0EbZM)
 
 ## October 12<sup>th</sup>, 2019
 Konstanz
