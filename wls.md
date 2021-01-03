@@ -25,6 +25,6 @@ Bremen
 Bremen
 - further cleaned up test code for `cp-testcontainers`
 - added authorization option to SASL Plain Kafka test container
-- published version v0.1.0 of cp-testcontainers
+- published version v0.1.0 of [cp-testcontainers](https://github.com/christophschubert/cp-testcontainers)
 - improved README of cp-testcontainers
-- published v0.1.0 of kafka-connect-java-client
+- published v0.1.0 of [kafka-connect-java-client](https://github.com/christophschubert/kafka-connect-java-client)
