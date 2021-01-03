@@ -19,3 +19,12 @@ Bremen
   Learnings:
   - When setting a custom wait strategy, `withStartupTimeout` needs to be called *after* `waitingFor`.
     Otherwise the default timeout of 60 seconds will still be used.
+- Wrote tests for REST proxy container to use rest-assured.
+
+## January 3<sup>rd</sub>, 2021
+Bremen
+- further cleaned up test code for `cp-testcontainers`
+- added authorization option to SASL Plain Kafka test container
+- published version v0.1.0 of cp-testcontainers
+- improved README of cp-testcontainers
+- published v0.1.0 of kafka-connect-java-client
