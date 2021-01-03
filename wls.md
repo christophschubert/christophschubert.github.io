@@ -21,7 +21,7 @@ Bremen
     Otherwise the default timeout of 60 seconds will still be used.
 - Wrote tests for REST proxy container to use rest-assured.
 
-## January 3<sup>rd</sub>, 2021
+## January 3<sup>rd</sup>, 2021
 Bremen
 - further cleaned up test code for `cp-testcontainers`
 - added authorization option to SASL Plain Kafka test container
