@@ -27,4 +27,11 @@ Bremen
 - added authorization option to SASL Plain Kafka test container
 - published version v0.1.0 of [cp-testcontainers](https://github.com/christophschubert/cp-testcontainers)
 - improved README of cp-testcontainers
-- published v0.1.0 of [kafka-connect-java-client](https://github.com/christophschubert/kafka-connect-java-client)
+- published [v0.1.0](https://github.com/christophschubert/kafka-connect-java-client/releases/tag/v0.1.0) of [kafka-connect-java-client](https://github.com/christophschubert/kafka-connect-java-client)
+
+## January 4<sup>th</sup>, 2021
+Bremen
+- hacked on `cp-testcontainers`
+  - added RBAC enabled container for `cp-server` images
+  - wrote decorator to give schema registry access to RBAC enabled cluster
+  - cleaned up tests
