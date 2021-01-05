@@ -46,14 +46,13 @@ Learnings:
   CONNECT_LOG4J_LOGGERS: org.eclipse.jetty=DEBUG,org.reflections=ERROR,org.apache.kafka.connect=DEBUG
   ```
   sets the jetty logger to DEBUG, etc.
-  
-  See https://docs.confluent.io/platform/current/connect/logging.html for a description of the different loggers available in Connect.
+  See [Confluent docs](https://docs.confluent.io/platform/current/connect/logging.html) for a description of the different loggers available in Connect.
 1. When configuring Connect with RBAC, we need to add the following REST extension property:
   ```
   rest.extension.classes=io.confluent.connect.security.ConnectSecurityExtension
   ```
-  When RBAC is enabled by secret registry is *not* enabled, one must not add the `io.confluent.connect.secretregistry.ConnectSecretRegistryExtension`.
-  When it is added, the Connect REST API will return 404 for all requests.
+  When RBAC is enabled by secret registry is *not* enabled, one *must not* add the `io.confluent.connect.secretregistry.ConnectSecretRegistryExtension`.
+  If it is added, the Connect REST API will return 404 for all requests.
   Of course, the extension has to be enabled for secret registry.
-1. Setting the `confluent.balancer.topic.replication.factor` to 1 will also set the `_confluent-telemetry-metrics` topic RF to 1
+1. Setting the `confluent.balancer.topic.replication.factor` to 1 will also set the `_confluent-telemetry-metrics` topic RF to 1.
 1. The `configure` script for `cp-server` container will not only transfer environment variables starting with `KAFKA_` into property values, but also those starting with `CONFLUENT` (I should double check that!)
