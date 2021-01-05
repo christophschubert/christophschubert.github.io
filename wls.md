@@ -38,14 +38,15 @@ Bremen
 
 ## January 5<sup>th</sup>, 2021
 Bremen
-- hacked on `cp-testcontainers`
-  - added RBAC configuration for connect
+- hacked on `cp-testcontainers`: added RBAC configuration for connect
+
 Learnings:
 1. We can use the following environment variables to configure the log-level of different loggers:
   ```
   CONNECT_LOG4J_LOGGERS: org.eclipse.jetty=DEBUG,org.reflections=ERROR,org.apache.kafka.connect=DEBUG
   ```
-  sets the jetty logger on DEBUG, etc.
+  sets the jetty logger to DEBUG, etc.
+  
   See https://docs.confluent.io/platform/current/connect/logging.html for a description of the different loggers available in Connect.
 1. When configuring Connect with RBAC, we need to add the following REST extension property:
   ```
