@@ -55,4 +55,35 @@ Learnings:
   If it is added, the Connect REST API will return 404 for all requests.
   Of course, the extension has to be enabled for secret registry.
 1. Setting the `confluent.balancer.topic.replication.factor` to 1 will also set the `_confluent-telemetry-metrics` topic RF to 1.
+1. [Vincent's Kafka Docker playground](https://github.com/vdesabou/kafka-docker-playground) proved to be valuable again.
 1. The `configure` script for `cp-server` container will not only transfer environment variables starting with `KAFKA_` into property values, but also those starting with `CONFLUENT` (I should double check that!)
+
+
+## January 6<sup>th</sup>, 2021
+Bremen
+- hacked on `cp-testcontainers`:
+  - code cleanup, enabled RBAC for ksqlDB container
+
+
+## January 12<sup>th</sup>, 2021
+Bremen
+- client work
+- wrote test cases for `cp-testcontainers`
+
+  Learnings:
+  - need to provide `producer`, `consumer`, and `admin` security mechanisms in order for `producer.override.sasl.jaas.config` to work
+
+## January 20<sup>th</sup>, 2020
+Bremen
+
+Learnings:
+- looked at [source-code](https://github.com/apache/kafka/blob/2.7/tools/src/main/java/org/apache/kafka/tools/ProducerPerformance.java) of `kafka-producer-perf-test`: almost all configurations will be taken from producer properties
+-
+
+## January 21<sup>st</sup>, 2021
+Bremen
+
+Learnings:
+- The python `simple.http` module [blocks on each request](https://stackoverflow.com/questions/48308487/can-python-m-http-server-be-configured-to-handle-concurrent-requests).
+This can lead to problems when installing with CP-ansible.
+Use the fork (`-f`) parameter of `ansible-playbook` to set the number of forks to `1`, see also the [ansible blog](https://www.ansible.com/blog/ansible-performance-tuning).
