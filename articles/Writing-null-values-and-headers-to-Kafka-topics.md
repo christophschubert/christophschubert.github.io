@@ -1,6 +1,6 @@
 Starting with Apache Kafka 3.2, it is possible to write headers and `null` values with the `kafka-console-producer`. This is useful for debugging purposes are to produce tombstone messages to compacted topics.
 
-Writing `null` values is unlocked with the new property `null.marker`. 
+Writing `null` values is unlocked with the new property `null.marker`.
 
 For example:
 ```shell
@@ -59,7 +59,7 @@ kafka-console-producer --bootstrap-server localhost:9092 --topic header_test --p
 >h1:h1-v,h1:h1-v2	key3	value3
 >nil	key-no-header	value-no-header
 ```
-As in the example before, header, key, and values are separated by a tabulator (`\t`) by default. Header key/value pairs are separated by a comma (`,`) and a colon (`:`) is used to separate key and value of a single header. These settings can be overridden using the `headers.delimiter` and `key.separator` , `headers.separator`, and `headers.key.separator` properties. 
+As in the example before, header, key, and values are separated by a tabulator (`\t`) by default. Header key/value pairs are separated by a comma (`,`) and a colon (`:`) is used to separate key and value of a single header. These settings can be overridden using the `headers.delimiter` and `key.separator` , `headers.separator`, and `headers.key.separator` properties.
 The following example demonstrates the usage of these properties:
 ```shell
 kafka-console-producer --bootstrap-server localhost:9092 --topic header_test --property null.marker=nil --property parse.key=true --property parse.headers=true --property key.separator=';' --property headers.separator=';' --property headers.delimiter='/' --property headers.key.separator='|'
@@ -77,12 +77,12 @@ h1:h1-v,h1:h1-v2	key3	value3
 NO_HEADERS	key-no-header	value-no-header
 h1:hv-1,h2:hv-2	key	value
 ```
-The `NO_HEADERS` literal to denote the absence of headers cannot be changed without writing a special formatter, as a quick look the [source code ](https://github.com/apache/kafka/blob/481fefb4f9ca0ecf83b72116977416d3a0472127/core/src/main/scala/kafka/tools/ConsoleConsumer.scala#L569)  shows. Also, the header-key-separator is hardcoded as a colon (`:`). 
+The `NO_HEADERS` literal to denote the absence of headers cannot be changed without writing a special formatter, as a quick look the [source code ](https://github.com/apache/kafka/blob/481fefb4f9ca0ecf83b72116977416d3a0472127/core/src/main/scala/kafka/tools/ConsoleConsumer.scala#L569)  shows. Also, the header-key-separator is hardcoded as a colon (`:`).
 
 
-## Comparison with `kcat`
+## Comparison with kcat
 
-`kcat` (formerly known as `kafkacat`) has supported producing headers and `null` values for quite some time using the following command line options:
+[`kcat`](https://github.com/edenhill/kcat) (formerly known as `kafkacat`) has supported producing headers and `null` values for quite some time using the following command line options:
 
 - `-H` option allows to specify key-value pairs for header. These will be applied to all messages produced.
 - `-K` option allows to specify key/value separator.
@@ -105,4 +105,3 @@ h1:v1,h2:v2	NULL	NULL
 ```
 
 As we see, `kcat` more concise but offers less options.
-```
