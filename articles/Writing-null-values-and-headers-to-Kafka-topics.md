@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Writing null values and headers to Kafka topics"
-date: 2022-08-27 08:06:00 -0000
+date: 2022-08-27 09:06:00 -0100
 tags:
 - CLI
 - Kafka
