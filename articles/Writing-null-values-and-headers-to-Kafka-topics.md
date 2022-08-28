@@ -2,7 +2,7 @@
 layout: article
 title: "Writing null values and headers to Kafka topics"
 date: 2022-08-27 08:06:00 -0000
-categories:
+tags:
 - CLI
 - Kafka
 - howto-guide
