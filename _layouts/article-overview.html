@@ -22,9 +22,11 @@
 
       <ul>
         {% for thing in site.pages %}
+        {% if thing.dir == "/articles/" %}
         <li>
           {{ thing.title }}
         </li>
+        {% endif %}
         {% endfor %}
       </ul>
       <footer class="site-footer">
