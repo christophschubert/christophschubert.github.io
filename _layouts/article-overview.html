@@ -24,7 +24,7 @@
         {% for thing in site.pages %}
         {% if thing.dir == "/articles/" and thing.name != "index.md" %}
         <li>
-          <a href="/articles/{{ thing.title }}">{{ thing.title }}</a>
+          <a href="{{ thing.path }}">{{ thing.title }}</a>
         </li>
         {% endif %}
         {% endfor %}
