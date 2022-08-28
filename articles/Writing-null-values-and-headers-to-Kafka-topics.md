@@ -7,7 +7,7 @@ categories: CLI Kafka
 
 # Writing null values and headers to Kafka topics
 
-Starting with Apache Kafka 3.2, it is possible to write headers and `null` values with the `kafka-console-producer`. This is useful for debugging purposes are to produce tombstone messages to compacted topics.
+Starting with Apache Kafka 3.2, it is possible to write headers and `null` values with the `kafka-console-producer`. This is useful for debugging purposes, e.g., to produce tombstone messages to compacted topics.
 
 Writing `null` values is unlocked with the new property `null.marker`.
 
