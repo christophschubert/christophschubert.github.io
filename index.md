@@ -3,6 +3,7 @@
 ## Articles
 
 * [Writing null values and headers to Kafka topics](articles/Writing-null-values-and-headers-to-Kafka-topics)
+* [Handling complex JSON documents with ksqlDB](articles/handling-complex-json-with-ksqldb)
 
 ## Cheet sheats
 
