@@ -22,6 +22,6 @@ It can be further combined with the `todate` filter to display the validity date
 cat license | jq -R 'split(".") | .[1] | @base64d | fromjson | .exp,.iat | todate'
 ```
 
-N.B.: `iat` stands for *issued at*, `exp` stands for *expires at•.
+N.B.: `iat` stands for *issued at*, `exp` stands for *expires at*.
 
 This can be used, for example, to display and validate a Confluent license.
